@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/brxm15.2.2/hst:components/simple-component:
+      jcr:primaryType: hst:component
+      hst:componentclassname: org.example.components.SimpleComponent

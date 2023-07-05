@@ -81,3 +81,4 @@ definitions:
       /home:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/page-home
+        hst:relativecontentpath: hello-world/demo-doc

@@ -5,10 +5,13 @@
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 <'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
 
-[brxm15.2.2:account] > hippo:compound, hippostd:relaxed
+[brxm15.2.2:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
-[brxm15.2.2:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+[brxm15.2.2:SimpleDoc] > brxm15.2.2:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[brxm15.2.2:account] > hippo:compound, hippostd:relaxed
   orderable
 
 [brxm15.2.2:author] > brxm15.2.2:basedocument, hippostd:relaxed, hippotranslation:translated

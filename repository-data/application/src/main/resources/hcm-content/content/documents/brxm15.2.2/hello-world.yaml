@@ -1,0 +1,66 @@
+/content/documents/brxm15.2.2/hello-world:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 0a0072ea-3cc4-4f85-9783-6544eccdf8c0
+  hippo:name: Hello World
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: f46aca37-c82c-4008-89eb-f1295ed20e69
+  hippotranslation:locale: en
+  /demo-doc:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 97987f02-fbe0-4b74-9524-d3ac576ae10e
+    hippo:name: Demo Doc
+    hippo:versionHistory: b0b04b53-2dfb-46ba-9e19-cd0cff85387a
+    /demo-doc[1]:
+      jcr:primaryType: brxm15.2.2:SimpleDoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: aa156123-22cf-44f3-8dd6-46eba3442de0
+      brxm15.2.2:title: Hello, Title
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2023-07-05T14:20:47.093-06:00
+      hippostdpubwf:lastModificationDate: 2023-07-05T14:20:47.093-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 622cb70b-10c4-4660-858f-f01b50bf5891
+      hippotranslation:locale: en
+      /brxm15.2.2:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Hello&nbsp;<u>formatted</u>&nbsp;<strong>Content</strong>!!!</p>
+    /demo-doc[2]:
+      jcr:primaryType: brxm15.2.2:SimpleDoc
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 5af32b15-38c2-4e12-ba6e-0fd8d21f20ed
+      brxm15.2.2:title: Hello, Title
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2023-07-05T14:20:47.093-06:00
+      hippostdpubwf:lastModificationDate: 2023-07-05T14:21:33.359-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 622cb70b-10c4-4660-858f-f01b50bf5891
+      hippotranslation:locale: en
+      /brxm15.2.2:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Hello&nbsp;<u>formatted</u>&nbsp;<strong>Content</strong>!!!</p>
+    /demo-doc[3]:
+      jcr:primaryType: brxm15.2.2:SimpleDoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5e95c44b-8462-48f8-8492-3ae6d4fd52f0
+      brxm15.2.2:title: Hello, Title
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2023-07-05T14:20:47.093-06:00
+      hippostdpubwf:lastModificationDate: 2023-07-05T14:21:33.359-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2023-07-05T14:21:38.666-06:00
+      hippotranslation:id: 622cb70b-10c4-4660-858f-f01b50bf5891
+      hippotranslation:locale: en
+      /brxm15.2.2:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Hello&nbsp;<u>formatted</u>&nbsp;<strong>Content</strong>!!!</p>

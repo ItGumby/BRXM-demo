@@ -1,4 +1,5 @@
 /content/documents/brxm15.2.2/videos:
+  .meta:order-before: hello-world
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 15d9dedd-0578-4313-a4c8-7180b688a733
