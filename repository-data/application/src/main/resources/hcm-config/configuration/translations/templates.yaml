@@ -34,6 +34,8 @@ definitions:
       new-video-document: new video
       new-brxm15.2.2-pictures-folder: new folder
       new-brxm15.2.2-pictures-image: New Image
+      new-pictures-document: new pictures document
+      new-pictures-folder: new pictures folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
