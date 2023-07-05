@@ -3,5 +3,5 @@
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
   jcr:uuid: ef4bb8c4-4d7a-48f1-84bf-84baeeddef5d
   hippo:name: Hippo v15
-  hippostd:foldertype: [new-image-folder]
-  hippostd:gallerytype: ['hippogallery:imageset']
+  hippostd:foldertype: [new-brxm15.2.2-pictures-folder]
+  hippostd:gallerytype: ['brxm15.2.2:pictures']

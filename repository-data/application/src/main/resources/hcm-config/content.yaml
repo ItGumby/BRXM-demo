@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /content/gallery:
+      hippostd:foldertype: [new-brxm15.2.2-pictures-folder]
+      hippostd:gallerytype: ['brxm15.2.2:pictures']

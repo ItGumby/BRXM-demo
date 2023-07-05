@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-brxm15.2.2-pictures-folder:
+      jcr:primaryType: hippostd:templatequery
+      hippostd:modify: [./_name, $name]
+      jcr:language: xpath
+      jcr:statement: /jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-brxm15.2.2-pictures-folder/hippostd:templates/node()
+      /hippostd:templates:
+        jcr:primaryType: hippostd:templates
+        /image gallery:
+          jcr:primaryType: hippogallery:stdImageGallery
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 30f2f174-0af9-4b29-a073-19b05cfcca8a
+          hippostd:foldertype: [new-brxm15.2.2-pictures-folder]
+          hippostd:gallerytype: ['brxm15.2.2:pictures']

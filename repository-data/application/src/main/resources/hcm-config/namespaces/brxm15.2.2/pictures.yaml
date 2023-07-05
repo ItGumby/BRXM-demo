@@ -1,0 +1,127 @@
+definitions:
+  config:
+    /hippo:namespaces/brxm15.2.2/pictures:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: d62e019a-d205-4ebf-9960-3f7387cff12a
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ed6b46fe-2e42-4865-a063-3214cd0b632c
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel']
+          hipposysedit:node: true
+          hipposysedit:supertype: ['hippogallery:imageset', 'hippogallery:relaxed']
+          hipposysedit:uri: http://www.brxm15.2.2.com/brxm15.2.2/nt/1.0
+          /filename:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogallery:filename
+            hipposysedit:type: String
+          /description:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogallery:description
+            hipposysedit:type: String
+          /thumbnail:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:autocreated: true
+            hipposysedit:mandatory: true
+            hipposysedit:path: hippogallery:thumbnail
+            hipposysedit:primary: true
+            hipposysedit:type: hippogallery:image
+          /original:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogallery:original
+            hipposysedit:type: hippogallery:image
+          /small:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: brxm15.2.2:small
+            hipposysedit:type: hippogallery:image
+          /medium:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: brxm15.2.2:medium
+            hipposysedit:type: hippogallery:image
+          /large:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: brxm15.2.2:large
+            hipposysedit:type: hippogallery:image
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: brxm15.2.2:pictures
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 9fd9e8ca-7923-4a26-9c7b-a88176c08a51
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            jcr:data:
+              type: binary
+              resource: /namespaces/brxm15.2.2/pictures/prototypes/prototype/thumbnail/thumbnail.gif
+            jcr:lastModified: 1970-01-01T00:00:00Z
+            jcr:mimeType: image/gif
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 0
+            hippogallery:width: 0
+            jcr:data:
+              type: binary
+              resource: /namespaces/brxm15.2.2/pictures/prototypes/prototype/original/original.gif
+            jcr:lastModified: 1970-01-01T00:00:00Z
+            jcr:mimeType: image/gif
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [model.compareTo, wicket.model, engine]
+          frontend:services: [wicket.id]
+          mode: edit
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /filename:
+            jcr:primaryType: frontend:plugin
+            caption: file name
+            field: filename
+            plugin.class: org.hippoecm.frontend.plugins.gallery.editor.FileNameDisplayPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /description:
+            jcr:primaryType: frontend:plugin
+            caption: description
+            field: description
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /thumbnail:
+            jcr:primaryType: frontend:plugin
+            caption: thumbnail
+            field: thumbnail
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+          /original:
+            jcr:primaryType: frontend:plugin
+            caption: original
+            field: original
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+          /small:
+            jcr:primaryType: frontend:plugin
+            caption: small
+            field: small
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+          /medium:
+            jcr:primaryType: frontend:plugin
+            caption: medium
+            field: medium
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+          /large:
+            jcr:primaryType: frontend:plugin
+            caption: large
+            field: large
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field

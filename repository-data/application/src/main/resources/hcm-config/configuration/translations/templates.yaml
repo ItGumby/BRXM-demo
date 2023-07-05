@@ -15,6 +15,8 @@ definitions:
       new-content-document: Neues Content-Document
       new-video-folder: Neuer Video-Ordner
       new-video-document: Neues Video
+      new-brxm15.2.2-pictures-folder: Neuer Ordner
+      new-brxm15.2.2-pictures-image: Neues Bild
     /hippo:configuration/hippo:translations/hippo:templates/en:
       new-resource-bundle: new resource bundle
       new-untranslated-folder: new untranslated folder
@@ -30,6 +32,8 @@ definitions:
       new-content-document: new content document
       new-video-folder: new video folder
       new-video-document: new video
+      new-brxm15.2.2-pictures-folder: new folder
+      new-brxm15.2.2-pictures-image: New Image
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
@@ -45,6 +49,8 @@ definitions:
       new-content-document: nouveau document contenu
       new-video-folder: nouveau dossier vidéo
       new-video-document: nouvelle vidéo
+      new-brxm15.2.2-pictures-folder: un nouveau dossier
+      new-brxm15.2.2-pictures-image: Nouvelle image
     /hippo:configuration/hippo:translations/hippo:templates/nl:
       new-resource-bundle: nieuwe resource bundle
       new-untranslated-folder: nieuwe onvertaalde map
@@ -60,3 +66,11 @@ definitions:
       new-content-document: nieuw content document
       new-video-folder: nieuwe videomap
       new-video-document: nieuwe video
+      new-brxm15.2.2-pictures-folder: nieuwe map
+      new-brxm15.2.2-pictures-image: Nieuwe Afbeelding
+    /hippo:configuration/hippo:translations/hippo:templates/es:
+      new-brxm15.2.2-pictures-image: Nueva imagen
+      new-brxm15.2.2-pictures-folder: nueva carpeta
+    /hippo:configuration/hippo:translations/hippo:templates/zh:
+      new-brxm15.2.2-pictures-image: 新图片
+      new-brxm15.2.2-pictures-folder: 新文件夹

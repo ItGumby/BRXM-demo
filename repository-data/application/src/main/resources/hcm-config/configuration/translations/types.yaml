@@ -4,3 +4,5 @@ definitions:
       jcr:primaryType: hipposys:resourcebundles
       /2:
         jcr:primaryType: hipposys:resourcebundles
+    /hippo:configuration/hippo:translations/hippo:types/brxm15.2.2:pictures:
+      jcr:primaryType: hipposys:resourcebundles

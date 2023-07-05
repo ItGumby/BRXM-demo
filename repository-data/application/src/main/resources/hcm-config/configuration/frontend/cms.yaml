@@ -1,0 +1,28 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/brxm15.2.2:small:
+      .meta:order-before: brxm15.2.2:medium
+      jcr:primaryType: frontend:pluginconfig
+      height: 256
+      upscaling: true
+      width: 256
+      compression: 0.7
+      cropping: true
+      optimize: auto
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/brxm15.2.2:medium:
+      .meta:order-before: brxm15.2.2:large
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: false
+      width: 512
+      compression: 0.5
+      cropping: false
+      optimize: speed
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/brxm15.2.2:large:
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: false
+      width: 1200
+      compression: 0.8
+      cropping: false
+      optimize: speed.and.quality
