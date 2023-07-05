@@ -17,3 +17,9 @@ definitions:
       /pagenotfound-main:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/brxm15.2.2/pagenotfound-main.ftl
+      /blog-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/brxm15.2.2/blog/blog-main.ftl
+      /blog-detail:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/blog/blog-detail.ftl

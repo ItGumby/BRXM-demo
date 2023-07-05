@@ -4,9 +4,18 @@
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
+[brxm15.2.2:account] > hippo:compound, hippostd:relaxed
+  orderable
+
 [brxm15.2.2:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
+[brxm15.2.2:author] > brxm15.2.2:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
 [brxm15.2.2:bannerdocument] > brxm15.2.2:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[brxm15.2.2:blogpost] > brxm15.2.2:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 

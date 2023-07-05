@@ -1,0 +1,456 @@
+/content/documents/brxm15.2.2/blog:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 620fc642-960e-4fc1-b873-27c19c2d39dd
+  hippostd:foldertype: [new-blog-folder, new-blogauthor-folder]
+  hippotranslation:id: f5c68d81-cf9a-48c6-a7ee-1a029ceb391e
+  hippotranslation:locale: en
+  /authors:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 74016ed1-9a62-4f55-b1e6-0b863a4ff5c9
+    hippostd:foldertype: [new-blogauthor-document, new-blogauthor-folder]
+    hippotranslation:id: 3b867925-3e8f-4cd9-95c0-1af571afe22a
+    hippotranslation:locale: en
+    /hippo-author:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+      hippo:name: Hippo Author
+      /hippo-author:
+        jcr:primaryType: brxm15.2.2:author
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 4cefacf5-00df-472d-a04d-271b745326b7
+        brxm15.2.2:fullname: Hippo Author
+        brxm15.2.2:role: Owner
+        hippo:availability: [live, preview]
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-02-27T16:32:00+01:00
+        hippostdpubwf:lastModificationDate: 2014-02-27T16:37:00+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2014-02-27T16:37:00+01:00
+        hippotranslation:id: d7ba0d53-d7c1-4d78-b349-4abaed0340b6
+        hippotranslation:locale: en
+        /brxm15.2.2:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <html>
+                      <body>
+
+                      <p>Hippo CMS is a powerful, enterprise-class foundation to deliver outstanding
+                      Customer Experiences based on Enterprise Agility and Innovation Power. Hippo CMS
+                      is open source, 100% Java and convinces with its lean product architecture that
+                      is built for uptime, security and performance.</p>
+
+                      <p> </p>
+
+                      </body>
+                      </html>
+        /brxm15.2.2:accounts[1]:
+          jcr:primaryType: brxm15.2.2:account
+          brxm15.2.2:link: https://github.com/onehippo
+          brxm15.2.2:type: github
+        /brxm15.2.2:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /brxm15.2.2:accounts[2]:
+          jcr:primaryType: brxm15.2.2:account
+          brxm15.2.2:link: https://twitter.com/onehippo
+          brxm15.2.2:type: twitter
+    /hippo-essentials-author:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 696a2657-448f-4a5a-89f5-1426d9ba1f7d
+      hippo:name: Hippo Essentials Author
+      /hippo-essentials-author:
+        jcr:primaryType: brxm15.2.2:author
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bf02ac71-eec3-489e-a63c-e14c29b2bc8a
+        brxm15.2.2:fullname: Hippo Essentials Author
+        brxm15.2.2:role: Owner
+        hippo:availability: [live, preview]
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2023-07-05T13:10:00-06:00
+        hippostdpubwf:lastModificationDate: 2023-07-05T13:10:00-06:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2023-07-05T13:10:00-06:00
+        hippotranslation:id: cd6029a4-c3b3-4a5e-82c5-e8e0ba196ca4
+        hippotranslation:locale: en
+        /brxm15.2.2:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <html>
+                      <body>
+
+                      <p>Hippo CMS is a powerful, enterprise-class foundation to deliver outstanding
+                      Customer Experiences based on Enterprise Agility and Innovation Power. Hippo CMS
+                      is open source, 100% Java and convinces with its lean product architecture that
+                      is built for uptime, security and performance.</p>
+
+                      <p> </p>
+
+                      </body>
+                      </html>
+        /brxm15.2.2:accounts[1]:
+          jcr:primaryType: brxm15.2.2:account
+          brxm15.2.2:link: https://github.com/onehippo
+          brxm15.2.2:type: github
+        /brxm15.2.2:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /brxm15.2.2:accounts[2]:
+          jcr:primaryType: brxm15.2.2:account
+          brxm15.2.2:link: https://twitter.com/onehippo
+          brxm15.2.2:type: twitter
+  /2023:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: a21b2083-586a-432a-b8db-3ff9333dc7a7
+    hippostd:foldertype: [new-blog-document, new-blog-folder]
+    hippotranslation:id: a38912c7-5830-44a1-9685-d26ea4ea3dfa
+    hippotranslation:locale: en
+    /07:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: c7d301c5-81a5-4d36-96e7-004c553ae880
+      hippostd:foldertype: [new-blog-document, new-blog-folder]
+      hippotranslation:id: 5bf53a56-97cc-45e4-b981-a2ec8de1f254
+      hippotranslation:locale: en
+      /first-blog-post:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 47c3fa49-4329-4b79-9cf2-3b40a7157b16
+        hippo:name: First blog post
+        /first-blog-post:
+          jcr:primaryType: brxm15.2.2:blogpost
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0dc8aa4f-6846-47d7-92c5-b4bb1fff116c
+          brxm15.2.2:authornames: [Hippo Author]
+          brxm15.2.2:categories: [cms, life]
+          brxm15.2.2:introduction: Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley
+            of type and scrambled it to make a type specimen book. It has survived
+            not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with
+            the release of Letraset sheets containing Lorem Ipsum passages, and more
+            recently with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum.
+          brxm15.2.2:publicationdate: 2023-07-05T13:10:00-06:00
+          brxm15.2.2:title: First blog post
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2023-07-05T13:10:00-06:00
+          hippostdpubwf:lastModificationDate: 2023-07-05T13:10:00-06:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2023-07-05T13:10:00-06:00
+          hippotranslation:id: 2c94fe7b-2496-48aa-9c60-59e5e1c3157b
+          hippotranslation:locale: en
+          /brxm15.2.2:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                        years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                        Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                        Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                        Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                        ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                        for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+                        Malorum" by Cicero are also reproduced in their exact original form, accompanied
+                        by English versions from the 1914 translation by H. Rackham.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        </body>
+                        </html>
+          /brxm15.2.2:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+      /second-blog-post:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 53542cd5-278d-4ba7-8bf4-7abc95e42a14
+        hippo:name: Second blog post
+        /second-blog-post:
+          jcr:primaryType: brxm15.2.2:blogpost
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 75668360-e5f6-4613-8ed4-83099511ed1e
+          brxm15.2.2:authornames: [Hippo Essentials Author]
+          brxm15.2.2:categories: [cms, life]
+          brxm15.2.2:introduction: Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley
+            of type and scrambled it to make a type specimen book. It has survived
+            not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with
+            the release of Letraset sheets containing Lorem Ipsum passages, and more
+            recently with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum.
+          brxm15.2.2:publicationdate: 2023-07-05T13:10:00-06:00
+          brxm15.2.2:title: Second blog post
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2023-07-05T13:10:00-06:00
+          hippostdpubwf:lastModificationDate: 2023-07-05T13:10:00-06:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2023-07-05T13:10:00-06:00
+          hippotranslation:id: c38b44b2-7ca1-41d9-905b-dda93dd0e489
+          hippotranslation:locale: en
+          /brxm15.2.2:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                        years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                        Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                        Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                        Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                        ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                        for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+                        Malorum" by Cicero are also reproduced in their exact original form, accompanied
+                        by English versions from the 1914 translation by H. Rackham.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        </body>
+                        </html>
+          /brxm15.2.2:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 696a2657-448f-4a5a-89f5-1426d9ba1f7d
+      /third-blog-post:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 57243a74-51e2-4b1f-9583-ca4b8d0654a9
+        hippo:name: Third blog post
+        /third-blog-post:
+          jcr:primaryType: brxm15.2.2:blogpost
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b6396f24-0f2d-4e01-bb3e-68b1ca846a8f
+          brxm15.2.2:authornames: [Hippo Author]
+          brxm15.2.2:categories: [life, lorem, ipsum]
+          brxm15.2.2:introduction: His no soleat iriure. Etiam dissentiet duo at.
+            Ad facilis pertinacia eam, nam melius facilisi volutpat ut, ea munere
+            legere qualisque pri. Cu nisl disputationi has. Duo tollit putent cu.
+          brxm15.2.2:publicationdate: 2023-07-05T13:10:00-06:00
+          brxm15.2.2:title: Third blog post
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2023-07-05T13:10:00-06:00
+          hippostdpubwf:lastModificationDate: 2023-07-05T13:10:00-06:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2023-07-05T13:10:00-06:00
+          hippotranslation:id: b4c3f1c7-4bfa-4b10-9c60-c8dec0d815cb
+          hippotranslation:locale: en
+          /brxm15.2.2:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Lorem ipsum dolor sit amet, sed dicant tempor dolorum at, pri in malis dicit omittam,
+                        mel ea constituto suscipiantur contentiones. At illum velit incorrupte pro. Ei vim tempor
+                        cetero, quo at volumus principes. No mel causae iisque viderer, eum agam dicit intellegebat
+                        cu. In nam meis pericula. No mea purto eirmod aliquid.</p>
+
+                        <p>Vis aeque eirmod persius ut, noster invidunt apeirian est no. Illum postea mnesarchum
+                        cu vix. Eam viris detracto no, usu soluta quaerendum at. Ius sale nullam eu. Vix cibo
+                        aperiri erroribus in, ea autem aeque sit.</p>
+
+                        <p>Vel tincidunt expetendis reformidans et, eum et oblique periculis. Vivendum recteque
+                        principes pri in. Id apeirian laboramus expetendis eum. Te debitis vocibus laboramus nam,
+                        ea ceteros copiosae est. Congue ornatus usu in, te vis impetus prodesset.</p>
+
+                        <p>Evertitur intellegam no mei, eos lobortis sapientem principes cu. Vel vidisse disputando
+                        et, ei melius moderatius duo. Esse tempor eu sed. Eu postea option impedit sed, no eum putent
+                        recusabo referrentur, no cum velit vitae. In pri justo nulla complectitur, cu duo doming
+                        graeco gubergren. Ius ferri platonem no, nec ei illum quaestio postulant, eu cum praesent
+                        voluptatum.</p>
+
+                        </body>
+                        </html>
+          /brxm15.2.2:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+      /fourth-blog-post:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: eecbb710-0368-40bf-b3a0-a7fa304f9e43
+        hippo:name: Fourth blog post
+        /fourth-blog-post:
+          jcr:primaryType: brxm15.2.2:blogpost
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 03ef58fb-7c54-4a2b-8b04-c9ccd8a3dcec
+          brxm15.2.2:authornames: [Hippo Author]
+          brxm15.2.2:categories: [ipsum]
+          brxm15.2.2:introduction: Aperiri insolens invenire vis id, ex vel rebum
+            clita postulant. Fierent tractatos adversarium no eam, eam cu libris habemus
+            placerat, partem accusata his ad. Ne vel inimicus referrentur.
+          brxm15.2.2:publicationdate: 2023-07-05T13:10:00-06:00
+          brxm15.2.2:title: Fourth blog post
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2023-07-05T13:10:00-06:00
+          hippostdpubwf:lastModificationDate: 2023-07-05T13:10:00-06:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2023-07-05T13:10:00-06:00
+          hippotranslation:id: 201164d8-f834-444b-ae37-31a0e3dd83b7
+          hippotranslation:locale: en
+          /brxm15.2.2:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Pro rebum utinam laoreet ea. Altera denique per ne, eu vix elit omnium percipit.
+                        Ius idque lorem te, munere eruditi et usu. Invenire ocurreret vis ea, vocent feugait
+                        eu vel, omnium urbanitas no sea. Duo ridens scribentur ut, facer efficiendi eam ei,
+                        sea primis putant cu.</p>
+
+                        <p>Summo alienum vim ut. Te option fuisset mea, mnesarchum neglegentur no eos. Ut
+                        viderer impedit posidonium vim, alia deserunt mea ei. Nam purto tempor aperiam eu,
+                        impedit nusquam his id. Ut stet viris pri, id porro molestie quaerendum cum. An pri
+                        porro hendrerit temporibus.</p>
+
+                        <p>Aliquam civibus volutpat an usu. Nec liber everti ei, est semper appellantur
+                        comprehensam ei. At ius noster ponderum, nec porro salutandi prodesset ea. Ad duis
+                        inimicus theophrastus mei. Duo cu veniam iisque laboramus.</p>
+
+                        <p>Ut vel duis dolorum persequeris, sea agam brute menandri at, diam oporteat
+                        moderatius eos in. Modus nemore percipitur eum ex, audiam referrentur in pri, id
+                        numquam detracto consectetuer nec. Harum rationibus eu mei, quo suas commune ea,
+                        vim esse disputationi eu. Malis gloriatur eu mel, eam cu perpetua liberavisse
+                        accommodare. Ne est perpetua laboramus neglegentur, te sint reprehendunt ius.</p>
+
+                        </body>
+                        </html>
+          /brxm15.2.2:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+  /account-types:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f8a7a3a7-3c64-404d-bbb6-3905e8b51141
+    /account-types:
+      jcr:primaryType: selection:valuelist
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 53c8f4bc-19fe-40be-86bf-cff5041926fc
+      hippo:availability: [live, preview]
+      hippotranslation:id: d05e96cb-c75f-4d2a-950f-1d99911e34b3
+      hippotranslation:locale: en
+      /selection:listitem[1]:
+        jcr:primaryType: selection:listitem
+        selection:key: github
+        selection:label: GitHub
+      /selection:listitem[2]:
+        jcr:primaryType: selection:listitem
+        selection:key: stackoverflow
+        selection:label: Stack Overflow
+      /selection:listitem[3]:
+        jcr:primaryType: selection:listitem
+        selection:key: twitter
+        selection:label: Twitter
+      /selection:listitem[4]:
+        jcr:primaryType: selection:listitem
+        selection:key: linkedin
+        selection:label: LinkedIn
+  /blog-categories:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: fe8f1284-bbf7-4a17-bb7f-3bbcb6289878
+    /blog-categories:
+      jcr:primaryType: selection:valuelist
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 720f581d-9157-44b0-899b-f7eab414ab58
+      hippotranslation:id: af75c958-7aac-4616-9773-463aa04c7cac
+      hippotranslation:locale: en
+      /selection:listitem[1]:
+        jcr:primaryType: selection:listitem
+        selection:key: cms
+        selection:label: CMS
+      /selection:listitem[2]:
+        jcr:primaryType: selection:listitem
+        selection:key: life
+        selection:label: Life
+      /selection:listitem[3]:
+        jcr:primaryType: selection:listitem
+        selection:key: lorem
+        selection:label: Lorem
+      /selection:listitem[4]:
+        jcr:primaryType: selection:listitem
+        selection:key: ipsum
+        selection:label: Ipsum
