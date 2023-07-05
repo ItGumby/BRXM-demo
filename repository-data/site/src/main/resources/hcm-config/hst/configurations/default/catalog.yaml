@@ -32,3 +32,9 @@ definitions:
         hst:iconpath: images/essentials/catalog-component-icons/blogposts-by-author.svg
         hst:label: Blog Posts by Author
         hst:template: blog-author-posts
+      /imagecomponent:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsImageComponent
+        hst:iconpath: images/essentials/catalog-component-icons/image.svg
+        hst:label: Image
+        hst:template: image-component
