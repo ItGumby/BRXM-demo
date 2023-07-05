@@ -1,0 +1,6 @@
+group: 
+  name: brxm-15.2.2
+  after: hippo-cms
+project: brxm-15.2.2
+module:
+  name: brxm-15.2.2-repository-data-site

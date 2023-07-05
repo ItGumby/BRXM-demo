@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/brxm15.2.2/hst:prototypepages:
+      jcr:primaryType: hst:pages

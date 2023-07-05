@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:sites/brxm15.2.2:
+      jcr:primaryType: hst:site
+      hst:content: /content/documents/brxm15.2.2

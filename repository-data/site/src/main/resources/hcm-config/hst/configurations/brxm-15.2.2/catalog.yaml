@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/brxm15.2.2/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /brxm15.2.2-catalog:
+        jcr:primaryType: hst:containeritempackage
