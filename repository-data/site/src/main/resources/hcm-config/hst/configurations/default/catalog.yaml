@@ -76,3 +76,9 @@ definitions:
         hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
         hst:label: Simple Content
         hst:template: contentpage-main
+      /videocomponent:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsVideoComponent
+        hst:iconpath: images/essentials/catalog-component-icons/video.svg
+        hst:label: Video
+        hst:template: video-component

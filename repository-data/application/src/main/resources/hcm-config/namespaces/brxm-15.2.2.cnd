@@ -25,3 +25,6 @@
 [brxm15.2.2:newsdocument] > brxm15.2.2:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[brxm15.2.2:video] > brxm15.2.2:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+

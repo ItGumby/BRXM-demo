@@ -36,3 +36,6 @@ definitions:
     /hst:hst/hst:configurations/hst:default/hst:templates/contentpage-main:
       jcr:primaryType: hst:template
       hst:renderpath: webfile:/freemarker/hstdefault/contentpage-main.ftl
+    /hst:hst/hst:configurations/hst:default/hst:templates/video-component:
+      jcr:primaryType: hst:template
+      hst:renderpath: webfile:/freemarker/hstdefault/video-component.ftl
