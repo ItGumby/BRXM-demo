@@ -26,3 +26,6 @@ definitions:
       /newspage-main:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/hstdefault/newspage-main.ftl
+      /search-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/brxm15.2.2/search-main.ftl

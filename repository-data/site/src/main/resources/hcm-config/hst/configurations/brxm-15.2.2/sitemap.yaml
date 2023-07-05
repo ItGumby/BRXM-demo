@@ -60,3 +60,8 @@ definitions:
         hst:componentconfigurationid: hst:pages/robotstxt
         hst:hiddeninchannelmanager: true
         hst:relativecontentpath: ../administration/robots
+      /search:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/search
+        hst:pagetitle: Search Results
+        hst:refId: search
