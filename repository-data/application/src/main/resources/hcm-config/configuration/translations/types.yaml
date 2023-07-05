@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/brxm15:
+      jcr:primaryType: hipposys:resourcebundles
+      /2:
+        jcr:primaryType: hipposys:resourcebundles

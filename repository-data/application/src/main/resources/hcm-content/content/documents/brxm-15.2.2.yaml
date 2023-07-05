@@ -1,6 +1,8 @@
 /content/documents/brxm15.2.2:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: e42f77c1-5f78-4784-b761-dc348acdb87a
   hippo:name: Hippo v15
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
