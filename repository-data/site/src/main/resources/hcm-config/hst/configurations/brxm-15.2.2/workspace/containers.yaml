@@ -81,3 +81,19 @@ definitions:
           hippo:identifier: 30ce950a-70c1-4900-a65a-50afe6e10cfd
           hst:label: News Page Main
           hst:xtype: hst.vbox
+      /contentlist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: c42f09f7-9574-4eed-8cc4-7eb079848e03
+          hst:label: Content List Main
+          hst:xtype: hst.vbox
+      /contentpage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: be5ed9d7-fbce-45cf-bc2d-8d6ab2539c1e
+          hst:label: Content Page Main
+          hst:xtype: hst.vbox
