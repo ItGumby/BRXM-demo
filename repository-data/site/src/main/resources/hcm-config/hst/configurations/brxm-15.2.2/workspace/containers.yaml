@@ -65,3 +65,19 @@ definitions:
           hst:label: Blog Page Main
           hst:lastmodified: 2014-04-15T15:02:10.775+02:00
           hst:xtype: hst.vbox
+      /newslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: f8aab20e-1679-467d-945a-5596147d29de
+          hst:label: News List Main
+          hst:xtype: hst.vbox
+      /newspage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 30ce950a-70c1-4900-a65a-50afe6e10cfd
+          hst:label: News Page Main
+          hst:xtype: hst.vbox

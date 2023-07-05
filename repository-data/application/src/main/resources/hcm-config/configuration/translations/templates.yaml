@@ -9,6 +9,8 @@ definitions:
       new-blogauthor-folder: Neuer Blogger-Ordner
       new-blog-document: Neuer Blog-Post
       new-blogauthor-document: Neuer Blogger
+      new-news-document: Neue News
+      new-news-folder: Neuer News-Ordner
     /hippo:configuration/hippo:translations/hippo:templates/en:
       new-resource-bundle: new resource bundle
       new-untranslated-folder: new untranslated folder
@@ -18,6 +20,8 @@ definitions:
       new-blogauthor-folder: new blog author folder
       new-blog-document: new blog post
       new-blogauthor-document: new blog author
+      new-news-document: new news item
+      new-news-folder: new news item folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
@@ -27,6 +31,8 @@ definitions:
       new-blogauthor-folder: nouveau dossier auteur blog
       new-blog-document: nouveau post blog
       new-blogauthor-document: nouvel auteur blog
+      new-news-document: nouveau message d'info
+      new-news-folder: nouveau dossier messages d'info
     /hippo:configuration/hippo:translations/hippo:templates/nl:
       new-resource-bundle: nieuwe resource bundle
       new-untranslated-folder: nieuwe onvertaalde map
@@ -36,3 +42,5 @@ definitions:
       new-blogauthor-folder: nieuwe blog auteurs map
       new-blog-document: nieuwe blog post
       new-blogauthor-document: nieuwe blog auteur
+      new-news-document: nieuw nieuwsbericht
+      new-news-folder: nieuwe nieuwsmap
