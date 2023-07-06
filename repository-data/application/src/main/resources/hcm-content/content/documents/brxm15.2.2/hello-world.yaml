@@ -64,3 +64,42 @@
       /brxm15.2.2:content:
         jcr:primaryType: hippostd:html
         hippostd:content: <p>Hello&nbsp;<u>formatted</u>&nbsp;<strong>Content</strong>!!!</p>
+  /alternate-doc:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 00e420d5-49df-42ac-93a8-271a4636ed89
+    hippo:name: Alternate Doc
+    /alternate-doc[1]:
+      jcr:primaryType: brxm15.2.2:SimpleDoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c9f8b2aa-b4e5-4495-bdd1-9c498db64aff
+      brxm15.2.2:title: Hello, Title
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2023-07-06T12:40:30.182-06:00
+      hippostdpubwf:lastModificationDate: 2023-07-06T12:40:30.182-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9da90f0b-1d6a-412e-9c17-7729277a13c5
+      hippotranslation:locale: en
+      /brxm15.2.2:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is a&nbsp;<strong>different</strong> document</p>
+    /alternate-doc[2]:
+      jcr:primaryType: brxm15.2.2:SimpleDoc
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 9dc14069-448b-4796-81fe-ac00d3d03613
+      brxm15.2.2:title: Hello, Title
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2023-07-06T12:40:30.182-06:00
+      hippostdpubwf:lastModificationDate: 2023-07-06T12:40:51.284-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9da90f0b-1d6a-412e-9c17-7729277a13c5
+      hippotranslation:locale: en
+      /brxm15.2.2:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is a&nbsp;<strong>different</strong> document</p>
